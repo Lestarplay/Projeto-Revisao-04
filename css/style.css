@@ -1,11 +1,30 @@
-body{
-    background-color: coral;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    background-color: #0b79b8;
+    font-family: "Bungee Tint", sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-.card{
-    display: block;
-    text-align: center;
+.gb{
+    
+}
+.base {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 600px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
 }

@@ -5,28 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Formulario pessoal">
-    <meta name="keywords" conten="site, Formulario e seguro">
+    <meta name="keywords" conten="site, Formulário e seguro">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/icons8-formato-16.png" type="image/x-icon">
-    <title>Formulario para contato</title>
+    <title>Formulário para contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1>Bem vindo!</h1>
     </header>
-    <form class="card">
+
+    <div class="base">
+     <div class="gb">
+        <form class="card">
         <label for="fname">Nome:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Sobrenome:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="Telefone">Telefone</label>:</label><br>
         <input type="text" id="lname" name="lname" value=""><br><br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email"><br><br>
         <label for="pwd">Senha:</label><br>
         <input type="password" id="pwd" name="pwd">
+        <textarea name="message" rows="10" cols="30">
+        </textarea>
         <input type="submit">
         <input type="reset" value="Reset">
     </form>
+   </div>
+   </div>
 </body>
 
 </html>
